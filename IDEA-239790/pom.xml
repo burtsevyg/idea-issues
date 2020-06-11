@@ -13,21 +13,11 @@
     </parent>
 
     <properties>
+        <java.version>11</java.version>
         <maven.javadoc.skip>true</maven.javadoc.skip>
     </properties>
 
     <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <configuration>
-                        <release>11</release>
-                    </configuration>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-
         <plugins>
             <plugin>
                 <artifactId>maven-source-plugin</artifactId>
